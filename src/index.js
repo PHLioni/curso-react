@@ -1,4 +1,8 @@
 import ReactDOM from 'react-dom'
+import React from 'react'
 
-const el = document.getElementById("root")
-ReactDOM.render('Olá React!', el)
+
+ReactDOM.render(
+    <div>Olá React !!!</div>,
+    document.getElementById("root")
+)
