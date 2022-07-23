@@ -3,7 +3,11 @@ import React from 'react'
 
 import './index.css'
 
+import First from './components/basics/First'
+
 ReactDOM.render(
-    <div>Olá React !!!</div>,
+    <div>
+        <First/>
+    </div>,
     document.getElementById("root")
 )
